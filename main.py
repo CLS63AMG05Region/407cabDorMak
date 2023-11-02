@@ -7,6 +7,11 @@ if a == 1:
         c = int(input("Type number three: "))
         if c == 3:
             print("Correct")
+            s = int(input("Type number four: "))
+            if s == 4:
+                print("Correct")
+            else:
+                print("You are under arrest")
         else:
             print("You are under arrest")
     else:
