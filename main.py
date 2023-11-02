@@ -10,6 +10,11 @@ if a == 1:
             s = int(input("Type number four: "))
             if s == 4:
                 print("Correct")
+                h = int(input("Type number five: "))
+                if h == 5:
+                    print("Correct")
+                else:
+                    print("You are under arrest")
             else:
                 print("You are under arrest")
         else:
